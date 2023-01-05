@@ -1,0 +1,10 @@
+.title1{
+    color: red;
+    font-size: large;
+    text-decoration: line-through;
+}
+.title2{
+    color: green;
+    font-size: large;
+    text-decoration:dashed;
+}
