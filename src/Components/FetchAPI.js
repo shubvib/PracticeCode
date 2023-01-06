@@ -19,13 +19,23 @@ function FetchAPI() {
     })
     .then((result) => {
       console.log("FetchAPI result-------------------");
-      result.map(value =>{
-        console.log(value);
-      })
+      // result.map(value =>{
+      //   console.log(value);
+      // })
+      console.log(result)
     })
     .catch((err) => {
       console.log(err);
     });
   getData();
+
+  return(
+    <>
+    <h3>${}</h3>
+    
+    
+    
+    </>
+  )
 }
 export default FetchAPI;
