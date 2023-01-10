@@ -4,17 +4,17 @@ import axios from "axios";
 
 function DataFetchingAxios() {
   const [posts, setposts] = useState([]);
-  const [title, settitle] = useState("");
+  const [title, settitle] = useState("title");
 
   useEffect(() => {
     settitle("Data From JSONPlaceholder Server");
     axios
       .get("https://jsonplaceholder.typicode.com/posts")
       .then((response) => {
-        console.log(response);
+        // console.log(response.data);
         setposts(response.data);
       })
-      .catch((err) => {
+      .catch((err) => { 
         console.log(err);
       });
   }, []);

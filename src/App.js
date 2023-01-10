@@ -1,7 +1,7 @@
 import './App.css';
-import FetchAPI from './Components/FetchAPI';
-import Demo1 from './Components/Demo1';
-import AxiosAPI from './Components/AxiosAPI';
+// import FetchAPI from './Components/FetchAPI';
+// import Demo1 from './Components/Demo1';
+// import AxiosAPI from './Components/AxiosAPI';
 import DataFetchingAxios from './DataFetchingAxios';
 
 function App() {
