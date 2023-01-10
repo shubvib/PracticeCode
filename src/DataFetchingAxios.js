@@ -27,7 +27,7 @@ function DataFetchingAxios() {
         {posts.map((post) => (
           <>
             <li>
-              <h3>Title: {post.title}</h3>
+              <h5><b>Title: {post.title}</b></h5>
             </li>
             <li>
               <span style={{ fontWeight: "bold" }}>Body:</span> {post.body}

@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 
 export default function Demo1(props) {
   
-  const [name, setName] = useState("enter your name");
+  const [name, setName] = useState("");
   
 
   //------------ useEffect run's when component is mounted for the first time
@@ -17,7 +17,7 @@ export default function Demo1(props) {
 
   const handelSubmit = (event) => {
     event.preventDefault();
-    document.write(name)
+    console.log(name)
   }
 
   
@@ -26,7 +26,7 @@ export default function Demo1(props) {
       <h1>Welcome to API Tutorial</h1>
       <p>Open Console to See Result</p>
       <form onSubmit={handelSubmit}>
-      <label>Enter your name:
+      <label>Enter your name: 
         <input
           type="text" 
           value={name}

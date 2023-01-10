@@ -31,7 +31,7 @@ function FetchAPI() {
 
   return(
     <>
-    <h3>${}</h3>
+    <h3>{}</h3>
     
     
     
