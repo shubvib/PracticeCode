@@ -9,7 +9,7 @@ function DataFetchingAxios() {
   useEffect(() => {
     settitle("Data From JSONPlaceholder Server");
     axios
-      .get("https://jsonplaceholder.typicode.com/posts")
+      .get("https://jsonplaceholder.typicode.com/posts?id=1")
       .then((response) => {
         // console.log(response.data);
         setposts(response.data);

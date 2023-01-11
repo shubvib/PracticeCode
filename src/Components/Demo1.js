@@ -18,6 +18,7 @@ export default function Demo1(props) {
   const handelSubmit = (event) => {
     event.preventDefault();
     console.log(name)
+    alert(name)
   }
 
   
@@ -34,6 +35,7 @@ export default function Demo1(props) {
         />
       </label>
       <input type="submit" value="submit"/>
+
     </form>
     </div>
   )

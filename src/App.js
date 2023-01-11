@@ -10,7 +10,7 @@ const FirstName = createContext();
 const LastName = createContext();
 
 function App() {
-
+  
   const fname = "shubham"
   const lname = "vibhute"
 
@@ -27,7 +27,7 @@ function App() {
 
       <FirstName.Provider value={fname}>
         <LastName.Provider value={lname}>
-          <CompA />
+          <CompA name="shubvib" />
         </LastName.Provider>
       </FirstName.Provider>
     </div>
