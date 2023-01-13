@@ -24,7 +24,7 @@ export default function Demo1(props) {
   
   return (
     <div>
-      <h1>Welcome to API Tutorial</h1>
+      <h1>Welcome to React Tutorial</h1>
       <p>Open Console to See Result</p>
       <form onSubmit={handelSubmit}>
       <label>Enter your name: 

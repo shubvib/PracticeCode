@@ -5,6 +5,7 @@ import FetchAPI from './Components/FetchAPI';
 import Demo1 from './Components/Demo1';
 import AxiosAPI from './Components/AxiosAPI';
 import DataFetchingAxios from "./DataFetchingAxios";
+import ReducerHook from "./Components/ReducerHook";
 
 const FirstName = createContext();
 const LastName = createContext();
@@ -30,6 +31,8 @@ function App() {
           <CompA name="shubvib" />
         </LastName.Provider>
       </FirstName.Provider>
+
+      <ReducerHook/>
     </div>
   );
 }
